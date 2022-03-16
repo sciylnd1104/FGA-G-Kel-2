@@ -1,0 +1,173 @@
+/* Untuk Tablet */
+@media (max-width: 1000px) {
+  .header-logo{
+    font-size: 20px;
+  }
+  .top-wrapper p{
+    font-size: 30px;
+  }
+  
+  label #btn {
+    display: block;
+  }
+  ul{
+    width: 100%;
+    margin-right: 0;
+    
+    text-align: center;
+    transition: .5s;
+  }
+  .list{
+    right: -100;
+    position: fixed;
+    background-color: rgba(57, 59, 59, 0.8);
+  }
+  ul a li{
+    display: block;
+    line-height: 10px;
+    margin: 50px 0;
+    color: black;
+    font-weight: bolder;
+  }
+  #check:checked ~ ul {
+    right: 0;
+  }
+  #check:checked ~ label #btn{
+    display: none;
+  }
+  #check:checked ~ label #close{
+    display: block;
+  }
+.container-foot{
+  font-size: 10px;
+  width: 100%;
+  height: 800px;
+}  
+.penutup{
+  font-size: 7px;
+  width: 100%;
+}  
+.content{
+  height: 800px;
+}
+.content-item{
+  float:inline-start;
+  margin-right: 35px;
+  margin-left: 35px;
+  margin-bottom: 30px;
+}
+.jam{
+  width: 100%;
+  float: inline-start;
+  padding: 30px;
+}
+.contact{
+float:inline-start;
+width: 100%;
+padding:30px;
+}
+.contact h6{
+padding: 30px;
+}
+.contact a{
+padding: 10px 300px;
+}
+.tentang{
+width: 100%;
+float:inline-start;
+}
+.tentang p{
+text-align: center;
+padding: 30px;
+width: 100%;
+}
+.tentang h6{
+text-align: center;
+padding: 30px;
+}
+}
+
+/* Untuk Smartphone */
+@media (max-width: 670px) {
+  .header-logo {
+    font-size: 15px;
+  }
+  .top-wrapper p{
+    font-size: 25px;
+  }
+  label #btn {
+    display: block;
+  }
+  ul{
+    width: 100%;
+    margin-right: 0;
+    
+    text-align: center;
+    transition: .5s;
+  }
+  .list{
+    position: fixed;
+    background-color: rgb(240, 246, 247, .8);
+    right: -100%;
+  }
+  ul a li{
+    display: block;
+    line-height: 10px;
+    margin: 50px 0;
+    color: black;
+    font-weight: bolder;
+  }
+  #check:checked ~ ul {
+    right: 0;
+  }
+  #check:checked ~ label #btn{
+    display: none;
+  }
+  #check:checked ~ label #close{
+    display: none;
+  }
+  .container-foot{
+    font-size: 8px;
+    width: 100%;
+    height: 900px;
+  }  
+  .penutup{
+    font-size: 5px;
+    width: 100%;
+  } 
+  .content-item{
+    float:inline-start;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+  .jam{
+    width: 100%;
+    float: inline-start;
+    padding: 30px;
+  }
+.contact{
+  float:inline-start;
+  width: 100%;
+  padding:30px;
+}
+.contact h6{
+  padding: 30px;
+}
+.contact a{
+  padding: 10px 120px;
+}
+.tentang{
+  width: 100%;
+  float:inline-start;
+}
+.tentang p{
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+}
+.tentang h6{
+  text-align: center;
+  padding: 30px;
+}
+}
