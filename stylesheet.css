@@ -1,0 +1,264 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Avenir Next";
+  
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding-left:15px;
+  padding-right:15px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+li {
+  list-style: none;
+  padding: 33px 20px;
+}
+
+/* Ketik code Anda dibawah */
+.header{
+  background-color: black; 
+  height: 90px;
+  opacity: 1;
+}
+.header-logo{
+  float: left;
+  font-size: 30px;
+  padding: 10px 40px;
+  color: rgb(245, 208, 2);
+  padding-left: 0;
+}
+
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: black;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    opacity: 0.5;
+  }
+  .top-wrapper img {
+      padding-top: 150px;
+      
+  }
+  .top-wrapper{
+    background-color: black;
+    height: 600px;
+  }
+  .top-wrapper p{
+    color: white;
+    padding-top: 20px;
+    font-size: 35px;
+    font-style: oblique;
+  }
+  .ti{
+    color: chartreuse;
+  }
+  nav {
+    float: right;
+    border: 1px solid;
+  }
+  nav li{
+    color: white;
+    padding:20px 20px;
+  }
+ 
+  .header-right a {
+    text-decoration: none;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  label #btn,
+  label #close {
+    color: white;
+    font-size: 30px;
+    float: right;
+    margin-left: 40px;
+    margin-right: 20px;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+  }
+  #check {
+    display: none;
+  }
+  #close{
+    display: none;
+  }
+
+
+footer{
+  background-color: black;
+}  
+.container-foot {
+  height: 300px;
+  font-family:'carbonated gothic';
+  max-width: 1170px;
+  width:100%;
+}
+
+.jam h6{
+  color:#f3be5c;
+  text-align: center;
+  letter-spacing: 8px;
+  font-size: 18px;
+}
+
+.jam {
+  color: #ffffff;
+  padding: 50px 50px 60px 110px;  
+  text-align: left;
+  width: 33%;
+  float:left;
+}
+
+.jkt {
+margin: auto;
+padding: 20px;
+letter-spacing: 1px;
+
+}
+
+.ygy {
+  margin: auto;
+  padding: 20px;
+
+  letter-spacing: 1px;
+}
+
+hr{
+margin: 0 auto;
+color: #ffffff;
+text-align: center;
+}
+
+.tentang {
+  width: 40%;
+  height: auto;
+  float:left;
+}
+.tentang p{
+  color: #ffffff;
+  padding: 10px 0px 60px 150px;  
+  text-align: right;
+  font-style: oblique;
+  word-spacing: 3pt;
+  letter-spacing: 2px;
+  font-size:16px;
+  margin: auto;
+}
+
+.tentang h6{
+  color:#f3be5c;
+  text-align: right;
+  letter-spacing: 8px;
+  font-size: 18px;
+  padding: 50px 0px 10px 250px;
+  margin: auto;
+}
+
+.penutup{
+  height: 25px;
+  background-color: rgba(221, 175, 23, 0.541);
+  font-size: 14px;
+  color:rgb(0, 0, 0);
+  line-height: 25px;
+  text-align: justify;
+
+}
+.contact {
+  width: 27%;
+  float:left;  
+}
+.contact h6{
+  color:#f3be5c;
+  text-align: center;
+  letter-spacing: 8px;
+  font-size: 18px;
+  padding: 50px 0px 20px 150px;  
+}
+.contact a{
+  list-style: none;
+  text-decoration: none;
+  display: block;
+  font-family:'carbonated gothic';
+  color: #ffffff;
+  font-size:18px;
+  padding: 5px 0px 10px 180px;  
+  letter-spacing: 4px;
+}
+.contact a:hover{
+  font-weight: bold;
+}
+.C1 {
+  width: 9%;
+}
+
+.C2 {
+  width: 9%;
+}
+.C3 {
+  width: 9%;
+}
+.main{
+  padding: 60px 80px;
+  background-color: #000000;
+}
+.content{
+  margin-top: 30px;
+  height: 500px;
+}
+.content-item{
+  float:left;
+  margin-right: 40px;
+}
+.section-title{
+  border-bottom: 2px solid rgb(245, 208, 2);
+  margin-bottom: 50px;
+  padding-bottom: 15px;
+  font-size: 40px;
+  color: antiquewhite;
+}
+.content-item p{
+  font-size: 24px;
+  margin-top: 30px;
+  color: bisque;
+}
+.content-item img{
+    width: 230px;
+    height: 250px;
+    object-fit: cover;
+}
+
